@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+/*logo*/
+.logo{
+    width: 50%;
+}
+
+.logo img{
+    width: 80px;
+}
+
+/*menu*/
+.menu{
+    width: 50%;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13pt;
+    margin-right: 15px; 
+}
+
+.menu a:hover{
+    color:#017143;
+    transition: ease-in-out 0.2s;
+}
+
+/*extras*/
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+
+}
+
+.extras{
+    position: absolute;
+    bottom: -85%;
+    right: -28%;
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.extras img {
+    width: 300px;
+}
+
+.extras img:hover{
+    transform: translateY(10px);
+}
+
+/*icons-social-media*/
+.social-media{
+    position: absolute;
+    right: 400px;
+    top: 180px;
+}
+
+.social-media img{
+    width: 25px;
+    display: block;
+    margin: 30px 0;
+}
+
+.social-media #facebook{
+    width: 13px;
+    margin-left: 5px;
+}
+
+/*texts*/
+.texto-sobre{
+    margin-top: -20px;
+}
+
+.texto-sobre h1{
+    font-size: 40pt;
+    margin-top: -15px;
+}
+
+.texto-sobre p{
+    margin: 0 0 20px 0;
+    color: black;
+    font-size: 12pt;
+    max-width: 500px;
+}
+
+/*button*/
+.texto-sobre button{
+    border: 0;
+    border-radius: 15px;
+    background-color: #017143;
+    color: white;
+    font-size: 10pt;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    transform: translateY(25px);
+}
+
+.texto-sobre button:hover{
+    background-color: #118d59;
+    transform: translateY(0.1rem);
+}
+
+/*rodapé*/
+.footer{
+    position: relative;
+    left: 42%;
+    top: 60px;
+}
+
+.footer img{
+    position: relative;
+    width: 90px;
+    margin: 15px;
+    bottom: 60px;
+    right: 100px;
+}
+
+.footer img:hover{
+    transform: translateY(-10px);
+    width: 110px;
+}
